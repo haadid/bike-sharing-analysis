@@ -1,0 +1,9 @@
+# Ignore all files in the directory
+*
+
+# Allow
+!app.py
+!Bike-sharing-dataset/
+!notebook.ipynb
+!.gitignore
+!requirements.txt
