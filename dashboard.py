@@ -13,8 +13,8 @@ def drop_and_rename_df(df):
     peta_cuaca = {1: 'Cerah', 2: 'Berawan', 3: 'Gerimis'}
     peta_bulan = {1: 'Jan', 2: 'Feb', 3: 'Mar', 4: 'Apr', 5: 'Mei', 6: 'Jun', 7: 'Jul', 8: 'Agu', 9: 'Sep', 10: 'Okt', 11: 'Nov', 12: 'Des'}
     peta_hari = {0: 'Min', 1: 'Sen', 2: 'Sel', 3: 'Rab', 4: 'Kam', 5: 'Jum', 6: 'Sab'}
-
     peta_hari_kerja = {0: 'Libur', 1: 'Kerja'}
+
     day_df['season'] = df['season'].replace(peta_musim)
     day_df['yr'] = df['yr'].replace(peta_tahun)
     day_df['weathersit'] = df['weathersit'].replace(peta_cuaca)
@@ -200,7 +200,7 @@ with tab6:
     st.write('Bagaimana pengaruh suhu terhadap penyewaan sepeda?')
     plt.figure(figsize=(12, 6))
     sns.scatterplot(data=new_day_df, x='temp', y='cnt')
-    plt.title('Analisis Hubungan Kelembapan dan Cuaca Terhadap penyewaan', fontsize=18)
+    plt.title('Analisis Hubungan Suhu dan Cuaca Terhadap penyewaan', fontsize=18)
     plt.xlabel('')
     plt.ylabel('')
     st.pyplot(plt)
