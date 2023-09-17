@@ -2,7 +2,7 @@
 *
 
 # Allow
-!app.py
+!dashboard.py
 !Bike-sharing-dataset/
 !notebook.ipynb
 !.gitignore
