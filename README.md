@@ -1,4 +1,4 @@
-# Bike Analysis
+# Bike Sharing Analysis
 
 ## Setup environment
 ```
