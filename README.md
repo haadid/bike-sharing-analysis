@@ -11,3 +11,6 @@ pip install -r requirements.txt
 ```
 streamlit run dashboard.py
 ```
+
+## Url 
+https://penyewaan-sepeda-dicoding-xpu2tvcz.streamlit.app/
